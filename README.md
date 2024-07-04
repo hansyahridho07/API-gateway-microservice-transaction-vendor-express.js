@@ -1,4 +1,4 @@
-<h1>DOCUMENTATION TAKE HOME TEST BADR-INTERACTIVE API GATEWAY MICROSERVICE</h1>
+<h1>DOCUMENTATION API GATEWAY MICROSERVICE</h1>
 
 [circleci-image]: https://miro.medium.com/v2/resize:fit:1400/1*i2fRBk3GsYLeUk_Rh7AzHw.png
 [circleci-url]: https://circleci.com/gh/nestjs/nest
@@ -13,30 +13,12 @@
 <h2 align="left"> <a href="https://www.javascript.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript" width="80" height="80"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="80" height="80"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png" alt="mysql" width="100" height="80"/> </a> <a href="https://sequelize.org/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/v2/resize:fit:661/1*XcE0wR1ZmWLFbdF2dE5WuA.png" alt="sequelize" width="150" height="80"/> </a>
 
 ## Introduction
-Project ini di buat oleh <b>Muhammad Ridho Hansyah</b> sebagai salah satu test untuk proses rekruitment di Badr Interactive
-
-## DATA DIRI
-
-
-<table>
-  <thead>
-    <tr>
-      <th>NAMA</th>
-      <th>EMAIL</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><h2>MUHAMMAD RIDHO HANSYAH</h2></td>
-      <td><h2>hansyahridho815@gmail.com</h2></td>
-    </tr>
-  </tbody>
-</table>
+Project ini di buat oleh <b>Muhammad Ridho Hansyah</b>.
 
 ## Architecture Microservice API Gateway
 <img src="./public/architecture.png" rel="noreferrer" alt="architecture"/>
 
-Dalam pembuatan take home test ini memberlakukan konsep microservice. Untuk komunikasi antar service menggunakan Restful API dengan dibuatkan 1 API Gateway sebagai perantara untuk user dapat menggunaka service yang ada. Pada tiap service memiliki route masing - masing serta memiliki database mereka masing - masing.
+Dalam pembuatan project ini memberlakukan konsep microservice. Untuk komunikasi antar service menggunakan Restful API dengan dibuatkan 1 API Gateway sebagai perantara untuk user dapat menggunaka service yang ada. Pada tiap service memiliki route masing - masing serta memiliki database mereka masing - masing.
 
 
 ## Project Features
@@ -310,7 +292,7 @@ ENV file pada  tiap  service yaitu:
 </table>
 
 ## Installation Guide
-* Clone repository [assignment](https://github.com/hansyahridho07/fastify-typescript-prisma.git).
+* Clone repository ini.
 * Masuk ke setiap folder satu persatu lalu lakukan
 * Run `npm install` untuk install semua dependencies
 * Buat file `.env` di tiap root folder pada tiap service
